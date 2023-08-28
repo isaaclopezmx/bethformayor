@@ -1,0 +1,17 @@
+@import "navbar";
+@import "footer";
+@import "home";
+@import "about";
+@import "contact";
+@import "vision";
+@import "endorsements";
+
+
+body {
+  font-family: 'Figtree', sans-serif !important;
+}
+
+:root {
+  --primary-blue: #004463;
+  /* Example color value */
+}

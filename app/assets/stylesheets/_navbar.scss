@@ -1,0 +1,60 @@
+.navbar,
+.navbar * {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--primary-blue) !important;
+}
+
+.navbar {
+  min-height: 12vh;
+}
+
+.navbar-brand img {
+  height: 7vh;
+  width: auto;
+}
+
+.navbar-container {
+  margin-right: 5% !important;
+  margin-left: 5% !important;
+
+}
+
+.donate-btn {
+  background-color: #004463 !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  color: #EFB114 !important;
+
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.link-hover:hover {
+  color: #53C2C5 !important;
+}
+
+.donate-hover:hover {
+  color: #53C2C5 !important;
+}
+
+.topbar {
+  background-color: #004463 !important;
+  border-bottom: 1px solid #E5E5E5 !important;
+  color: #FFFFFF !important;
+  min-height: 6vh;
+  margin: 0;
+  font-family: 'Figtree', sans-serif;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+#animatedText {
+  display: inline-block;
+  color: white;
+}

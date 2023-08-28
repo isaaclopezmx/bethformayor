@@ -1,0 +1,11 @@
+development:
+  cloud_name: "dqe5h0j32"
+  api_key: "873341651352765"
+  api_secret: "fRBj0C5LwcxqmOK32v_y5c7xTz8"
+  secure: true
+
+production:
+  cloud_name: "dqe5h0j32"
+  api_key: "873341651352765"
+  api_secret: "fRBj0C5LwcxqmOK32v_y5c7xTz8"
+  secure: true

@@ -1,0 +1,244 @@
+.header-container {
+  background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693162366/bethfilingimage_djblhm.jpg');
+  background-size: 110%;
+  /* To cover the entire container */
+  background-position: center 30%;
+  /* To center the image */
+  background-repeat: no-repeat;
+  /* To prevent the image from repeating */
+}
+
+.image-container {
+  min-height: 65vh;
+  display: flex;
+  /* Enable flexbox */
+  flex-direction: column;
+  /* Stack children vertically */
+  justify-content: flex-end;
+  /* Align children to the bottom */
+  /* Optional padding at the bottom */
+}
+
+.banner-container {
+  position: relative;
+}
+
+.donatebanner-btn {
+  position: absolute;
+  top: 0;
+  /* Adjust this value */
+  left: 50%;
+  /* Center the button horizontally */
+  transform: translate(-50%, -50%);
+  /* Center the button */
+}
+
+.bannertop {
+  background-color: #004463;
+  min-height: 2vh;
+}
+
+.bannermiddle {
+  background: rgb(239, 177, 20);
+  background: linear-gradient(93deg, rgba(239, 177, 20, 1) 43%, rgba(222, 161, 8, 1) 85%);
+  min-height: 14vh;
+}
+
+.bannertexttop {
+  color: rgb(248, 249, 250);
+  font-family: 'Figtree', sans-serif;
+  font-weight: 900 !important;
+  font-style: italic;
+  font-size: 80px;
+}
+
+.bannertextmiddle {
+  color: #004463;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 900 !important;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.donatebanner-btn {
+  background-color: #53C2C5 !important;
+  font-weight: bold !important;
+  font-size: 25px !important;
+  color: #fffcf5 !important;
+
+}
+
+.donatebutton-hover:hover {
+  color: #004463 !important;
+}
+
+.right-container {
+  background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693184443/kennetfamilytwo_o1oykz.jpg');
+  background-size: 150%;
+  /* To cover the entire container */
+  background-position: center;
+  /* To center the image */
+  background-repeat: no-repeat;
+  /* To prevent the image from repeating */
+  min-height: 60vh;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.left-containertwo {
+  background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693249052/bethsmiling_sw1ose.jpg');
+  background-size: cover;
+  /* To cover the entire container */
+  background-position: center;
+  /* To center the image */
+  background-repeat: no-repeat;
+  /* To prevent the image from repeating */
+  min-height: 60vh;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.left-container {
+  background-color: #fffcf5;
+  min-height: auto;
+  width: 100%;
+  margin-left: 0px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-containertwo {
+  background-color: #004463;
+  min-height: auto;
+  width: 100%;
+  margin-left: 0px;
+}
+
+.right-containertwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoboxhero img {
+  max-width: 200px;
+  /* You can adjust this value */
+  margin-bottom: 20px;
+  /* Space between the logo and the text */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.triplectext {
+  color: #004463;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 900 !important;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.triplectexttwo {
+  color: #fffcf5;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 900 !important;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.leftconttextp {
+  color: #004463;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+  font-size: 2vh;
+  line-height: 1.2;
+  padding: 30px;
+}
+
+.leftconttextptwo {
+  color: #fffcf5;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+  font-size: 2vh;
+  line-height: 1.2;
+  padding: 30px;
+}
+
+/* Tablet-specific style */
+@media (max-width: 1024px) {
+  .image-container {
+    min-height: 40vh;
+  }
+
+  .header-container {
+    background-size: 150%;
+  }
+
+  .bannertexttop {
+    color: rgb(248, 249, 250);
+    font-family: 'Figtree', sans-serif;
+    font-weight: 900 !important;
+    font-style: italic;
+    font-size: 75px;
+  }
+
+  .bannertextmiddle {
+    color: #004463;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 900 !important;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .donatebanner-btn {
+    background-color: #53C2C5 !important;
+    font-weight: bold !important;
+    font-size: 25px !important;
+    color: #fffcf5 !important;
+
+  }
+}
+
+/* Mobile-specific style */
+@media (max-width: 768px) {
+  .image-container {
+    min-height: 35vh;
+  }
+
+  .header-container {
+    background-size: 170%;
+  }
+
+  .bannertexttop {
+    color: rgb(248, 249, 250);
+    font-family: 'Figtree', sans-serif;
+    font-weight: 900 !important;
+    font-style: italic;
+    font-size: 35px;
+  }
+
+  .bannertextmiddle {
+    color: #004463;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 900 !important;
+    font-style: italic;
+    font-size: 18px;
+  }
+
+  .donatebanner-btn {
+    background-color: #53C2C5 !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    color: #fffcf5 !important;
+
+  }
+}
