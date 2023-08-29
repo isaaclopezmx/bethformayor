@@ -74,7 +74,7 @@
 
 .right-container {
   background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693184443/kennetfamilytwo_o1oykz.jpg');
-  background-size: 150%;
+  background-size: cover;
   /* To cover the entire container */
   background-position: center;
   /* To center the image */
@@ -129,7 +129,7 @@
 }
 
 .logoboxhero img {
-  max-width: 200px;
+  max-width: 250px;
   /* You can adjust this value */
   margin-bottom: 20px;
   /* Space between the logo and the text */
@@ -138,12 +138,59 @@
   margin-right: auto;
 }
 
+
+.iconbox img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  /* This will make sure the aspect ratio is maintained */
+}
+
+.iconbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
 .triplectext {
   color: #004463;
   font-family: 'Figtree', sans-serif;
   font-weight: 900 !important;
   font-size: 30px;
   line-height: 1.2;
+  padding: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+
+.quotetexttwo {
+  color: #fffcf5;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 900;
+  font-size: 3vh;
+  padding: 30px;
+
+}
+
+.icontext {
+  color: #004463;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 800 !important;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.quotetext {
+  color: #004463;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 900;
+  font-size: 5vh;
+  padding: 10px;
+
+
 }
 
 .triplectexttwo {
@@ -152,6 +199,8 @@
   font-weight: 900 !important;
   font-size: 30px;
   line-height: 1.2;
+  padding: 30px;
+  padding-top: 0px;
 }
 
 .leftconttextp {
@@ -170,6 +219,71 @@
   font-size: 2vh;
   line-height: 1.2;
   padding: 30px;
+  padding-top: 5px !important;
+}
+
+.quotecont {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.quotebackground {
+  background-color: #fffcf5;
+}
+
+.bethphoto-cont {
+  background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693269213/bethsmilingtwo_gsssna.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.next-container {
+  background-color: #fffcf5;
+  min-height: 50vh;
+  z-index: 0;
+  /* Add this line */
+  position: relative;
+  /* Add this line */
+}
+
+.bethcont {
+  background-color: #004463;
+  min-height: auto;
+  position: absolute;
+  bottom: -17.5vh;
+  /* Half of the min-height of .bethcont */
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+
+.marker-underline {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+
+.marker-underline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 14px;
+  transform: skew(-12deg);
+  background: #EFB114;
+  z-index: -1;
+  /* This will place it behind the text */
 }
 
 /* Tablet-specific style */
