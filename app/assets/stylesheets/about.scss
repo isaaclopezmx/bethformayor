@@ -1,3 +1,46 @@
 .about-container {
-  min-height: 10vh;
+  min-height: 70vh;
+  background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693365279/bethblue_e7rijx.jpg');
+  background-size: cover;
+  /* To cover the entire container */
+  background-position: center 40%;
+  /* To center the image */
+  background-repeat: no-repeat;
+  /* To prevent the image from repeating */
+}
+
+.aboutsecond-container {
+  min-height: 70vh;
+  background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693366839/bethpink_dwskns.jpg');
+  background-size: cover;
+  /* To cover the entire container */
+  background-position: center 20%;
+  /* To center the image */
+  background-repeat: no-repeat;
+  /* To prevent the image from repeating */
+  padding: 0px;
+}
+
+.aboutcont {
+  min-height: 70vh;
+}
+
+.headerbox {
+  padding-top: 20%;
+}
+
+.aboutheader {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: #fffcf5;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #004463;
+  /* Replace with the color you want */
+  display: inline;
+  /* Makes the background color only as wide as the text */
+  padding: 5px;
+  /* Adds some space around the text */
 }
