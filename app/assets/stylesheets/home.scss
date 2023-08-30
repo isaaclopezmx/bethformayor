@@ -23,6 +23,11 @@
   position: relative;
 }
 
+.bethsignaturebox {
+  min-height: 4vh;
+  width: auto;
+}
+
 .donatebanner-btn {
   position: absolute;
   top: 0;
@@ -170,7 +175,7 @@
   color: #fffcf5;
   font-family: 'Figtree', sans-serif;
   font-weight: 900;
-  font-size: 3vh;
+  font-size: 20px;
   padding: 30px;
 
 }
@@ -187,7 +192,7 @@
   color: #004463;
   font-family: 'Figtree', sans-serif;
   font-weight: 900;
-  font-size: 5vh;
+  font-size: 60px;
   padding: 10px;
 
 
@@ -218,7 +223,7 @@
   font-weight: 400;
   font-size: 2vh;
   line-height: 1.2;
-  padding: 30px;
+  padding: 45px;
   padding-top: 5px !important;
 }
 
@@ -248,7 +253,7 @@
 
 .next-container {
   background-color: #fffcf5;
-  min-height: 50vh;
+  min-height: 15vh;
   z-index: 0;
   /* Add this line */
   position: relative;
@@ -259,7 +264,7 @@
   background-color: #004463;
   min-height: auto;
   position: absolute;
-  bottom: -17.5vh;
+  bottom: -12.5vh;
   /* Half of the min-height of .bethcont */
   left: 0;
   right: 0;

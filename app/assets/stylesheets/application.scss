@@ -6,7 +6,6 @@
 @import "vision";
 @import "endorsements";
 
-
 body {
   font-family: 'Figtree', sans-serif !important;
 }
@@ -14,4 +13,10 @@ body {
 :root {
   --primary-blue: #004463;
   /* Example color value */
+}
+
+body,
+html {
+  overflow-x: hidden;
+  /* Prevents horizontal scrolling */
 }
