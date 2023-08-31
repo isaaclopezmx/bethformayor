@@ -1,0 +1,91 @@
+.visionheadercont {
+  background-color: #004463;
+  min-height: 40vh;
+}
+
+.visiontext {
+  color: #fffcf5;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 900 !important;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.visionsubtext {
+  color: #fffcf5;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400 !important;
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+.issuescontainer {
+  background-color: #fffcf5;
+  min-height: 40vh;
+}
+
+@media (min-width: 992px) {
+  .visionheader {
+    font-size: 60px !important;
+    /* Adjust as needed */
+  }
+}
+
+.issuebutton {
+  background-color: #004463 !important;
+  color: #fffcf5;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 900 !important;
+  font-size: 50px !important;
+  line-height: 1.2;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0px !important;
+}
+
+/* For tablet screens */
+@media (max-width: 768px) {
+  .issuebutton {
+    font-size: 40px !important;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 576px) {
+  .issuebutton {
+    font-size: 28px !important;
+  }
+}
+
+.card {
+  background-color: #ffffff;
+  border: none;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 500;
+}
+
+.visionheader {
+  font-family: 'Figtree', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: #fffcf5;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #004463;
+  /* Replace with the color you want */
+  display: inline;
+  /* Makes the background color only as wide as the text */
+  padding: 5px;
+  /* Adds some space around the text */
+}
+
+.visionbeth-container {
+  min-height: 70vh;
+  background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693431819/bethpinksuittwo_pf4kms.jpg');
+  background-size: cover;
+  /* To cover the entire container */
+  background-position: center 50%;
+  /* To center the image */
+  background-repeat: no-repeat;
+  /* To prevent the image from repeating */
+}

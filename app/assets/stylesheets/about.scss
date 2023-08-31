@@ -25,12 +25,41 @@
   min-height: 70vh;
 }
 
+.bannermiddleabout {
+  background: rgb(239, 177, 20);
+  background: linear-gradient(93deg, rgba(239, 177, 20, 1) 43%, rgba(222, 161, 8, 1) 85%);
+  min-height: 10vh;
+}
+
+.rockycont {
+  background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693370040/rocky_pnlydl.jpg');
+  background-size: cover;
+  /* To cover the entire container */
+  background-position: center;
+  /* To center the image */
+  background-repeat: no-repeat;
+  /* To prevent the image from repeating */
+  min-height: 55vh;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.aboutbethh1 {
+  font-family: 'Figtree', sans-serif;
+  font-size: 75px;
+  font-weight: 900;
+  color: #004463;
+  text-align: center;
+  /* Adds some space around the text */
+}
+
 .headerbox {
   padding-top: 20%;
 }
 
 .aboutheader {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Figtree', sans-serif;
   font-size: 50px;
   font-weight: 900;
   color: #fffcf5;

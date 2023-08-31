@@ -1,0 +1,50 @@
+.endorseheadercont {
+  background-color: #53C2C5;
+  min-height: 40vh;
+}
+
+.endorsetext {
+  color: #004463;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 900 !important;
+  font-size: 50px;
+}
+
+.endorsesubtext {
+  color: #004463;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 500 !important;
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+.logo-container-home img {
+  width: 100%;
+  height: auto;
+}
+
+.endorsement-container {
+  min-height: 70vh;
+  background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693446594/bethgroupfiling_vs2rlw.jpg');
+  background-size: cover;
+  /* To cover the entire container */
+  background-position: center 20%;
+  /* To center the image */
+  background-repeat: no-repeat;
+  /* To prevent the image from repeating */
+  padding: 0px;
+}
+
+
+@media (max-width: 768px) {
+  .aboutbethh1 {
+    font-size: 35px !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .endorsetext {
+    font-size: 35px !important;
+  }
+}
