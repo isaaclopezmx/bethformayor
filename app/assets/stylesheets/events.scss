@@ -33,7 +33,6 @@
 
 .eventbox {
   background-color: #e9e9e9;
-  min-height: 15vh;
 
 }
 
@@ -85,4 +84,28 @@
   font-family: 'Figtree', sans-serif;
   font-weight: 900 !important;
 
+}
+
+/* Styles for tablet screens */
+@media (max-width: 1024px) {
+
+  .datebox,
+  .dateboxnum {
+    font-size: 32px;
+    /* Adjust as needed */
+  }
+}
+
+/* Styles for mobile screens */
+@media (max-width: 768px) {
+
+  .datebox {
+    font-size: 35px;
+    /* Adjust as needed */
+  }
+
+  .dateboxnum {
+    font-size: 28px;
+    /* Adjust as needed */
+  }
 }
