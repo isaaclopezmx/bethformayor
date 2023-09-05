@@ -89,9 +89,13 @@
 /* Styles for tablet screens */
 @media (max-width: 1024px) {
 
-  .datebox,
+  .datebox {
+    font-size: 35px;
+    /* Adjust as needed */
+  }
+
   .dateboxnum {
-    font-size: 32px;
+    font-size: 28px;
     /* Adjust as needed */
   }
 }

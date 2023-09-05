@@ -1,5 +1,5 @@
 .header-container {
-  background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693162366/bethfilingimage_djblhm.jpg');
+  background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693871559/bethfilingthree.jpg');
   background-size: 110%;
   /* To cover the entire container */
   background-position: center 30%;
@@ -134,7 +134,7 @@
 }
 
 .logoboxhero img {
-  max-width: 250px;
+  max-width: 300px;
   /* You can adjust this value */
   margin-bottom: 20px;
   /* Space between the logo and the text */
@@ -163,7 +163,7 @@
   color: #004463;
   font-family: 'Figtree', sans-serif;
   font-weight: 900 !important;
-  font-size: 30px;
+  font-size: 50px;
   line-height: 1.2;
   padding: 30px;
   padding-top: 0px;
@@ -220,7 +220,7 @@
   color: #fffcf5;
   font-family: 'Figtree', sans-serif;
   font-weight: 900 !important;
-  font-size: 30px;
+  font-size: 50px;
   line-height: 1.2;
   padding: 30px;
   padding-top: 0px;
@@ -410,6 +410,97 @@
     font-weight: bold !important;
     font-size: 15px !important;
     color: #fffcf5 !important;
+
+  }
+}
+
+/* Styles for landscape orientation */
+@media only screen and (orientation: landscape) {
+  .header-container {
+    background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693871559/bethfilingthree.jpg');
+    background-size: 100%;
+    /* To cover the entire container */
+    background-position: center 30%;
+    /* To center the image */
+    background-repeat: no-repeat;
+    /* To prevent the image from repeating */
+  }
+
+  .image-container {
+    min-height: 90vh;
+    display: flex;
+    /* Enable flexbox */
+    flex-direction: column;
+    /* Stack children vertically */
+    justify-content: flex-end;
+    /* Align children to the bottom */
+    /* Optional padding at the bottom */
+  }
+
+  .bannertexttop {
+    color: rgb(248, 249, 250);
+    font-family: 'Figtree', sans-serif;
+    font-weight: 900 !important;
+    font-style: italic;
+    font-size: 40px;
+    padding-top: 15px;
+  }
+
+  .leftconttextp {
+    color: #004463;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 20px;
+  }
+
+  .leftconttextptwo {
+    color: #fffcf5;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 20px;
+    padding-top: 5px !important;
+  }
+
+  .bethphoto-cont {
+    background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693364559/bethlillies_tgugoy.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+
+  .right-container {
+    background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693184443/kennetfamilytwo_o1oykz.jpg');
+    background-size: cover;
+    /* To cover the entire container */
+    background-position: center;
+    /* To center the image */
+    background-repeat: no-repeat;
+    /* To prevent the image from repeating */
+    min-height: 90vh;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .left-containertwo {
+    background-image: url('https://res.cloudinary.com/dqe5h0j32/image/upload/v1693425824/bethbluesuit_xcw6or.jpg');
+    background-size: cover;
+    /* To cover the entire container */
+    background-position: center 30%;
+    /* To center the image */
+    background-repeat: no-repeat;
+    /* To prevent the image from repeating */
+    min-height: 90vh;
+    margin: 0px;
+    padding: 0px;
 
   }
 }
