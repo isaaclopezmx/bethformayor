@@ -9,7 +9,7 @@
 }
 
 .image-container {
-  min-height: 65vh;
+  min-height: 60vh;
   display: flex;
   /* Enable flexbox */
   flex-direction: column;
@@ -165,9 +165,8 @@
   font-weight: 900 !important;
   font-size: 50px;
   line-height: 1.2;
-  padding: 30px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-right: 30px;
+  padding-left: 30px;
 
 }
 
@@ -265,7 +264,7 @@
   font-weight: 400;
   font-size: 2vh;
   line-height: 1.2;
-  padding: 45px;
+  padding: 55px;
   padding-top: 5px !important;
 }
 
@@ -461,7 +460,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 1.2;
-    padding: 20px;
+    padding: 45px;
     padding-top: 5px !important;
   }
 
